@@ -6,6 +6,13 @@ $('document').ready(function(){
     $('.news-slider').slick({
         dots: false,
         arrows: true,
-        variableWidth: true
+        slidesToShow: 4
+    });
+    $('.trust-slider').slick({
+        dots: false,
+        arrows: true,
+        variableWidth: true,
+        centerMode: false,
+        infinite: true
     });
 });
