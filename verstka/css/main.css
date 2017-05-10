@@ -1,0 +1,273 @@
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(fonts/helveticaneuecyr-light.otf);
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url(fonts/roboto.light.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(fonts/roboto.bold.ttf);
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(fonts/roboto.medium.ttf);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+header .top{
+    background-color: #292b45;
+    color: #dadaf0;
+    text-align: right;
+    font-family: "Helvetica Neue";
+    border-top: solid 3px #6669b1;
+    padding-top: 2px;
+}
+header .contacts{
+    display: inline-block;
+}
+header .contacts span{
+    padding: 0 17px;
+}
+header .contacts span:first-child{
+    border-right: solid 1px #dadaf0;
+}
+header .lang-swicher{
+    display: inline-block;
+    margin-left: 2.5%;
+}
+header .lang-swicher a{
+    text-transform: uppercase;
+    color: #dadaf0;
+    line-height: 25px;
+    display: inline-block;
+    padding: 0 5px;
+    margin-left: -2px;
+    /*float: left;*/
+
+}
+header .lang-swicher a:hover{
+    background-color: #6669b1;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logos{
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+header .logos .partners img{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+
+#top-menu{
+    font-family: Roboto Light;
+    font-size: 16px;
+    border-top: solid 1px #5e5f6d;
+    border-bottom: solid 1px #5e5f6d;
+    background-color: #dadaf0;
+    z-index: 2;
+}
+#top-menu ul{
+    background-color: #dadaf0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#top-menu li{
+    list-style: none;
+}
+#top-menu .nav-menu{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+#top-menu .nav-menu > li{
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+#top-menu .sub-menu{
+    display: none;
+}
+
+#top-menu a{
+    color: #5e5f6d;
+    padding: 18px;
+    display: inline-block;
+}
+#top-menu .nav-menu > li > a{
+    text-transform: uppercase;
+}
+#top-menu .nav-menu > li:hover{
+    border-right: solid 1px #B1B2C7;
+    border-left: solid 1px #B1B2C7;
+}
+#top-menu .nav-menu > li a:hover{
+    font-family: "Roboto Bold";
+}
+#top-menu .nav-menu > li > a:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #6568B5;
+    height: 2px;
+    width: 100%;
+}
+#top-menu .nav-menu li:hover > ul{
+    display: block;
+    position: absolute;
+}
+#top-menu .nav-menu > li > .sub-menu{
+    margin-top: 0px;
+}
+#top-menu .sub-menu{
+    width: 250px;
+    z-index: 2;
+    font-family: "Roboto Medium";
+    border-top: solid 1px #9C9DAF;
+}
+#top-menu .sub-menu li{
+    height: 58px;
+}
+#top-menu .sub-menu li a{
+    display: block;
+    height: 100%;
+}
+#top-menu .sub-menu li a:hover{
+    background-color: #232744;
+    color: #fff;
+}
+#top-menu .sub-menu .sub-menu{
+    left: 250px;
+    top: -1px;
+    font-size: 12px;
+    text-align: left;
+}
+#top-menu .sub-menu .sub-menu a{
+    padding: 12px 0 0 30px;
+}
+.slick-slider{
+    padding-left: 0;
+}
+.slick-item{
+    height: 550px;
+    background-position: center center;
+}
+.banner .slick-slider{
+    z-index: 1;
+}
+.pre-header-clock{
+    text-align: center;
+    border-top: solid 1px #5e5f6d;
+}
+.pre-header-clock h2{
+    border-bottom: solid 1px #5e5f6d;
+}
+.page-title{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #dadaf0;
+    font-family: "Roboto Bold";
+}
+.sub-title span{
+    position: relative;
+}
+.sub-title span:before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -5px;
+    left: -10px;
+    border-bottom: solid 1px #292b45;
+    border-left: solid 1px #292b45;
+}
+.sub-title span:after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    right: -10px;
+    border-top: solid 1px #292b45;
+    border-right: solid 1px #292b45;
+}
+.news-container{
+    color: #696B79;
+}
+.news-container h5{
+    font-size: 18px;
+    font-family: "Roboto Medium";
+}
+.news-container li{
+    width: 290px;
+    padding: 0 10px;
+}
+.news-container .news-item{
+    height: 270px;
+    background-size: cover;
+    padding: 80px 20px 0;
+    color: #fff;
+    text-align: center;
+    outline: solid 1px #fff;
+    position: relative;
+    outline-offset: -10px;
+}
+.news-container .news-item:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+    left: 0;
+    top: 0;
+}
+.news-container .news-item:hover{
+    outline: none;
+}
+.news-container .news-item:hover:before{
+    display: none;
+}
+.news-slider{
+    margin: 0 -10px;
+}
+.content img{
+    max-width: 100%;
+}
+
+
+
+
+
+@media all and(min-width: 1210px){
+    .container{
+        width: 1210px;
+    }
+}
+
+
+body:before{
+    content: "";
+    position: absolute;
+    top: 0;width: 100%;
+    height: 1000%;
+    background-image: url(../images/RDteh_home.jpg);
+    background-position: center top;
+    opacity: 0.2;
+    z-index: 1;
+    /*display: none;*/
+}
